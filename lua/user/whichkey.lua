@@ -131,7 +131,7 @@ local mappings = {
   l = {
     name = "LSP",
     h = { "<cmd>lua vim.lsp.buf.hover()<cr>", "Hover" },
-    D = { "<cmd>lua vim.lsp.buf.definition()<cr>", "Hover" },
+    D = { "<cmd>lua vim.lsp.buf.definition()<cr>", "Definition" },
     d = {
       "<cmd>Telescope lsp_document_diagnostics<cr>",
       "Document Diagnostics",
