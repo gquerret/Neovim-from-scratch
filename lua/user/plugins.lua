@@ -73,8 +73,8 @@ return packer.startup(function(use)
   use { "L3MON4D3/LuaSnip", commit = "8f8d493e7836f2697df878ef9c128337cbf2bb84" } --snippet engine
   use { "rafamadriz/friendly-snippets", commit = "2be79d8a9b03d4175ba6b3d14b082680de1b31b1" } -- a bunch of snippets to use
 
-	-- LSP
-	use({ "gquerret/nvim-lspconfig", commit = "6f59b8452bcbe766e8153347ba5ee17e22af56a9" }) -- enable LSP
+  -- LSP
+  use { "gquerret/nvim-lspconfig", commit = "0d54b01520de1f639d8b94f2ce0be450f4339362" } -- enable LSP
   use { "gquerret/mason.nvim", commit = "ad3a461ca3e415f5acd4a139c3acae00375c9f03"} -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim", commit = "0051870dd728f4988110a1b2d47f4a4510213e31" }
 	use { "jose-elias-alvarez/null-ls.nvim", commit = "c0c19f32b614b3921e17886c541c13a72748d450" } -- for formatters and linters
