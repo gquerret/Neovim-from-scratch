@@ -74,7 +74,7 @@ return packer.startup(function(use)
   use { "rafamadriz/friendly-snippets", commit = "2be79d8a9b03d4175ba6b3d14b082680de1b31b1" } -- a bunch of snippets to use
 
   -- LSP
-  use { "gquerret/nvim-lspconfig", commit = "0d54b01520de1f639d8b94f2ce0be450f4339362" } -- enable LSP
+  use { "gquerret/nvim-lspconfig", commit = "e2783a5b01ae416c5fe8a56339199c3147a12926" } -- enable LSP
 	use { "williamboman/mason.nvim", commit = "c2002d7a6b5a72ba02388548cfaf420b864fbc12"} -- simple to use language server installer
   -- use { "gquerret/mason.nvim", commit = "ad3a461ca3e415f5acd4a139c3acae00375c9f03"} -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim", commit = "0051870dd728f4988110a1b2d47f4a4510213e31" }
